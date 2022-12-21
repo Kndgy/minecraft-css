@@ -42,7 +42,6 @@ pre{
   padding-top: 50px;
   height: 500px;
   display: flex;
-  gap: 100px;
   flex-direction: row;
   justify-content: space-between;
 }
