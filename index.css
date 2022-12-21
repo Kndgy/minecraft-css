@@ -1,0 +1,52 @@
+:root{
+  font-size: 16px;
+  padding: 2rem 4rem;
+}
+
+pre{
+  margin: 0;
+  display: flex;
+  padding: 0;
+}
+
+.section-first{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.item-parent{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: max-content;
+}
+
+.item-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.recipe{
+  height: 50px;
+  width: 50px;
+}
+
+.section-second{
+  padding-top: 50px;
+  height: 500px;
+  display: flex;
+  gap: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tab-code{
+  width: 100%;
+}
